@@ -1,15 +1,18 @@
 import { Component, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
-  imports: [],
+  imports: [
+    
+  ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-  @Output() login = new EventEmitter<void>();
+  constructor(private router: Router) {}
   onLogin() {
-    this.login.emit();
+    this.router.navigate(['/dashboard']);
   }
 
 }
