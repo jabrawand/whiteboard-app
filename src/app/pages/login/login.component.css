@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    position: absolute;
+    border: 1px solid red;
+    
+    padding: 20px; /* Abstand von input-Feld bis Rand*/
+    width: 300px; /* Breite des Login-containers*/
+    
+    text-align: center;
+    border-radius: 8px;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    display: block; /* Eingabefelder untereinander*/
+    margin: 10px auto; /* Abstand zwischen den Eingabefeldern: Horizontal mittig, vertikal 10px */
+    padding: 10px; /* Abstand von Schrift bis Rand*/
+    width: 80%; /* Länge des Eingabefeldes innerhalb des Login-containers*/
+    border: none;
+    border-radius: 5px;
+}
