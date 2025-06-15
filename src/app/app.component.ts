@@ -1,5 +1,6 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { LoginComponent } from "./pages/login/login.component";
 
 
 @Component({
@@ -7,8 +8,9 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
   imports: [
     RouterOutlet,
     RouterLink,
-    RouterLinkActive
-  ],
+    RouterLinkActive,
+    LoginComponent
+],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

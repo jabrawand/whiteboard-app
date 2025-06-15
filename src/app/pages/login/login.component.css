@@ -12,16 +12,15 @@ body {
     color: white;
     position: absolute;
     border: 1px solid red;
-    
     padding: 20px; /* Abstand von input-Feld bis Rand*/
     width: 300px; /* Breite des Login-containers*/
-    
     text-align: center;
     border-radius: 8px;
-    top: 500%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 input {
     display: block; /* Eingabefelder untereinander*/
     margin: 10px auto; /* Abstand zwischen den Eingabefeldern: Horizontal mittig, vertikal 10px */
